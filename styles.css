@@ -1,0 +1,122 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFEBCD;
+}
+
+/* Peso e tamanho */
+.fonte-tamanho-grande{
+    font-size: 64px;
+}
+
+.fonte-tamanho-pequeno{
+    font-size: 12px;
+}
+
+.peso-fonte{
+    font-weight: 700;
+}
+
+.texto-italico{
+    font-style: italic;
+}
+
+/* Box Model */
+.box-model{
+    width: 350px;
+    height: 525px;
+    padding: 20px ;
+    margin: 20px;
+    margin-top: 80px;
+    background-color: white;
+    display: inline-block; 
+    box-shadow: 0px 3px 2px #A9A9A9;
+}
+
+/*Propriedades de texto*/
+
+.alinhamento{
+    text-align: center;
+}
+
+.transforma-maiuscula{
+    text-transform: uppercase;
+}
+
+.transforma-minuscula{
+    text-transform: lowercase;
+}
+
+/* Espaçamento de linhas e letras  */
+.espacamento-texto{
+    width: 150px;
+    line-height: 40px;
+    letter-spacing: 8px;
+}
+
+/* Links */
+.decoration{
+    text-decoration: none;
+}
+
+.visitado:visited{
+    color: orange
+}
+
+.estilo-hover:hover{
+    background-color: #e015be;
+}
+
+/* Link em Button */
+
+.btn:hover{
+    background-color: #1b5a7e;
+    color: aliceblue;
+}
+
+.elemento-fixo{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #F4A460;
+    border-bottom: 3px solid #b36e33;
+}
+
+.imagem{
+    width: 100%;
+    height: 40%;
+    margin: 10;
+    background-position: top;
+    background-size: cover;
+    position:relative;
+    top: 20px;
+}
+
+#img-1{
+    background-image: url('ImagemDoGregorio-2.jpg');
+}
+
+#img-2{
+    background-image: url('livropoesia.jpg');
+}
+
+#img-3{
+    background-image: url('morros.webp');
+}
+
+.botao{
+    width: 400px;
+    height: 560px;
+    border: none;
+    padding: 20px ;
+    margin: 20px;
+    background-color: white;
+    display: inline-block; 
+    box-shadow: 0px 3px 2px #A9A9A9;
+    position: relative;
+    top: 80px;
+}
