@@ -5,64 +5,6 @@ body{
     background-color: #FFEBCD;
 }
 
-/* Peso e tamanho */
-.fonte-tamanho-grande{
-    font-size: 64px;
-}
-
-.fonte-tamanho-pequeno{
-    font-size: 12px;
-}
-
-.peso-fonte{
-    font-weight: 700;
-}
-
-.texto-italico{
-    font-style: italic;
-}
-
-/*Propriedades de texto*/
-
-.alinhamento{
-    text-align: center;
-}
-
-.transforma-maiuscula{
-    text-transform: uppercase;
-}
-
-.transforma-minuscula{
-    text-transform: lowercase;
-}
-
-/* Espaçamento de linhas e letras  */
-.espacamento-texto{
-    width: 150px;
-    line-height: 40px;
-    letter-spacing: 8px;
-}
-
-/* Links */
-.decoration{
-    text-decoration: none;
-}
-
-.visitado:visited{
-    color: orange
-}
-
-.estilo-hover:hover{
-    background-color: #e015be;
-}
-
-/* Link em Button */
-
-.btn:hover{
-    background-color: #1b5a7e;
-    color: aliceblue;
-}
-
 .elemento-fixo{
     position: fixed;
     left: 0;
@@ -94,7 +36,6 @@ body{
     background-image: url('morros.webp');
 }
 
-/* Box Model */
 .box-model{
     width: 350px;
     height: 525px;
@@ -104,4 +45,8 @@ body{
     background-color: white;
     display: inline-block; 
     box-shadow: 0px 3px 2px #A9A9A9;
+    position: relative;
+    bottom: 0px;
+    right: 0;
 }
+
