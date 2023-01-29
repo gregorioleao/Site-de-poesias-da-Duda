@@ -46,17 +46,7 @@ body{
     height: 40%;
     /* background-position: top; */
     background-size: cover; 
-    background-image: url('ImagemDoGregorio-2.jpg');
-    position: absolute;
-    bottom: 295px;
-}
-
-#imagem-2{
-    width: 89%;
-    height: 40%;
-    /* background-position: top; */
-    background-size: cover; 
-    background-image: url('livropoesia.jpg');
+    background-image: url('imagemDoGregorio-3.jpg');
     position: absolute;
     bottom: 295px;
 }
@@ -66,7 +56,17 @@ body{
     height: 40%;
     /* background-position: top; */
     background-size: cover; 
-    background-image: url('morros.webp');
+    background-image: url('ImagemDeLivro.jpg');
+    position: absolute;
+    bottom: 295px;
+}
+
+#imagem-2{
+    width: 89%;
+    height: 40%;
+    /* background-position: top; */
+    background-size: cover; 
+    background-image: url('ImagemDePaisagem.jpg');
     position: absolute;
     bottom: 295px;
 }
@@ -83,4 +83,31 @@ footer{
 
 i{
     color: rgb(126, 45, 45);
+}
+
+.introducao{
+    width: 300px;
+    height: 300px;
+    padding: 20px ;
+    margin-left: 25px;
+    position: relative;
+    top: 130px;
+    right: 35px;
+}
+
+.estilo-letra{
+    text-align: start;
+    font-size: 20px;
+    font-family: Georgia;
+    color: rgb(112, 112, 112);
+}
+
+.estilo-saibamais{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #A9A9A9;
+    text-decoration: underline;
 }
