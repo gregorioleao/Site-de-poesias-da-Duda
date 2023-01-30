@@ -111,3 +111,8 @@ i{
     color: #A9A9A9;
     text-decoration: underline;
 }
+
+a{
+    text-decoration: none;
+    color: rgb(126, 45, 45);
+}
